@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoaib - Developer - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Poppins:wght@400;700&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(14, 14, 54);
+            ;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+
+        }
+
+        nav ul li a:hover {
+            color: rgb(179, 179, 255);
+            font-size: 1.02rem;
+        }
+
+        main hr {
+            border: 0;
+            background-color: #9c97f1;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 140px 0;
+
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            /* background-color: red; */
+            font-size: 2.5rem;
+        }
+
+        .rightSection img {
+            width: 80%;
+        }
+
+        .purple {
+            color: rgb(170, 107, 228)
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(170, 107, 228)
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection {
+            font-size: 1.9rem;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 70vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 94px;
+            width: 1px;
+            background-color: white;
+            margin: 0 98px;
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -38px;
+            left: -8px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 42px;
+            width: 160px;
+            font-size: 20px;
+
+
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 61px;
+            color: gray;
+            width: 170px;
+            font-size: 9px;
+
+        }
+        footer{
+            background-color: #0e0e1a;
+            /* height: 233px; */
+        }
+        .footer {
+            justify-content: space-evenly;
+            display: flex;
+            padding: 23px 122px;
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .footer > div{
+            width: 200px;
+        }
+        footer .footer-rights{
+            text-align: center;
+            color: gray;
+            padding: 12px 0px;
+
+        }
+        .buttons{
+            margin: 30px 0px;
+        }
+        .buttons .btn {
+    padding: 8px;
+    border-radius: 11px;
+    border: 2px solid darkgray;
+    background-color: #2a2a4f;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Poppins';
+    color: white;
+}
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Shoaib's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</li></a>
+                    <li><a href="/">About</li></a>
+                    <li><a href="/">Services</li></a>
+                    <li><a href="/">Projects</li></a>
+                    <li><a href="/">Contact Me</li></a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Shoaib Ali</span>
+                <div>and I am a Passionate</div>
+                <!-- <div>Web Developer</div> -->
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="image.png" alt="">
+            </div>
+
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experince</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img src="developer.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        HTML Developer (2021 to 2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Welcome to my portfolio! I am an HTML developer with experience from 2021 to 2023. I am
+                        passionate about creating visually appealing and user-friendly web applications. Throughout my
+                        journey, I have gained expertise in HTML, CSS, and JavaScript, and I have kept up with the
+                        latest trends and technologies in the field.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="htm (1).png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        Nodejs Developer(2021 to 2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Welcome to my portfolio! I am an HTML developer with experience from 2021 to 2023. I am
+                        passionate about creating visually appealing and user-friendly web applications. Throughout my
+                        journey, I have gained expertise in HTML, CSS, and JavaScript, and I have kept up with the
+                        latest trends and technologies in the field.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="face.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        HTML Developer (2021 to 2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Welcome to my portfolio! I am an HTML developer with experience from 2021 to 2023. I am
+                        passionate about creating visually appealing and user-friendly web applications. Throughout my
+                        journey, I have gained expertise in HTML, CSS, and JavaScript, and I have kept up with the
+                        latest trends and technologies in the field.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="insta.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        HTML Developer (2021 to 2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Welcome to my portfolio! I am an HTML developer with experience from 2021 to 2023. I am
+                        passionate about creating visually appealing and user-friendly web applications. Throughout my
+                        journey, I have gained expertise in HTML, CSS, and JavaScript, and I have kept up with the
+                        latest trends and technologies in the field.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="you.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        HTML Developer (2021 to 2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Welcome to my portfolio! I am an HTML developer with experience from 2021 to 2023. I am
+                        passionate about creating visually appealing and user-friendly web applications. Throughout my
+                        journey, I have gained expertise in HTML, CSS, and JavaScript, and I have kept up with the
+                        latest trends and technologies in the field.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="insta.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        HTML Developer (2021 to 2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Welcome to my portfolio! I am an HTML developer with experience from 2021 to 2023. I am
+                        passionate about creating visually appealing and user-friendly web applications. Throughout my
+                        journey, I have gained expertise in HTML, CSS, and JavaScript, and I have kept up with the
+                        latest trends and technologies in the field.
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                Shoaib's Developer Portfolio
+            </div>
+            <div class="footer-second">
+                <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact Us</li>
+            </ul>
+                </div>
+            <div class="footer-third">
+                <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact Us</li>
+            </ul>
+        </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+           Copyright &#169; shoaibsportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Graphics Designer', 'Web Designer', 'Video Editor'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+</body>
+
+</html>
